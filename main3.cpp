@@ -9,12 +9,12 @@ int main()
     int number;
     int maxNumber = INT_MIN;
     for (int i = 0; i < 7; ++i) {
-        std::cout << "Ââåä³òü ö³ëå ÷èñëî: ";
-        std::cin >> number;
+        cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Ã¶Â³Ã«Ã¥ Ã·Ã¨Ã±Ã«Ã®: ";
+        cin >> number;
         if (number > maxNumber) {
             maxNumber = number;
         }
     }
-    std::cout << "Ìàêñèìàëüíå ÷èñëî: " << maxNumber << std::endl;
+    cout << "ÃŒÃ ÃªÃ±Ã¨Ã¬Ã Ã«Ã¼Ã­Ã¥ Ã·Ã¨Ã±Ã«Ã®: " << maxNumber << endl;
     return 0;
 }
